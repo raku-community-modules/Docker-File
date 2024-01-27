@@ -1,19 +1,25 @@
 {
-  "name" : "Docker::File",
-  "tags" : [ "docker", "dockerfile" ],
-  "author" : "Jonathan Worthington <jnthn@jnthn.net>",
-  "auth" : "github:jnthn",
-  "support" : {
-    "source" : "git://github.com/jnthn/p6-docker-file.git"
+  "auth": "zef:raku-community-modules",
+  "author": "Jonathan Worthington <jnthn@jnthn.net>",
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Parsing and generation of Dockerfiles",
+  "license": "Artistic-2.0",
+  "name": "Docker::File",
+  "perl": "6.c",
+  "provides": {
+    "Docker::File": "lib/Docker/File.rakumod"
   },
-  "source-url" : "git://github.com/jnthn/p6-docker-file.git",
-  "perl" : "6.c",
-  "build-depends" : [ ],
-  "provides" : {
-    "Docker::File" : "lib/Docker/File.pm6"
-  },
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "description" : "Parsing and generation of Dockerfiles.",
-  "version" : "1.0"
+  "resources": [
+  ],
+  "source-url": "git://github.com/raku-community-modules/Docker-File.git",
+  "tags": [
+    "docker",
+    "dockerfile"
+  ],
+  "test-depends": [
+  ],
+  "version": "1.0"
 }
