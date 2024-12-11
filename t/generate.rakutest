@@ -1,5 +1,8 @@
-use Docker::File;
 use Test;
+
+use Docker::File;
+
+plan 37;
 
 is
     Docker::File.new(
@@ -318,4 +321,4 @@ is
     ENV bat="man" foo="bar"
     EXPECTED-2
 
-done-testing;
+# vim: expandtab shiftwidth=4

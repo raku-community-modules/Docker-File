@@ -1,5 +1,8 @@
-use Docker::File;
 use Test;
+
+use Docker::File;
+
+plan 49;
 
 subtest {
     my $file = Docker::File.parse: q:to/DOCKER/;
@@ -639,4 +642,4 @@ subtest {
     is $ins.variables<myCat>, 'fluffy', 'Correct variable/value';
 }, 'ENV key/value, space escaped, and multi-line form';
 
-done-testing;
+# vim: expandtab shiftwidth=4

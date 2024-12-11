@@ -1,5 +1,8 @@
-use Docker::File;
 use Test;
+
+use Docker::File;
+
+plan 3;
 
 # Tests here are taken from various examples in Docker documentation.
 
@@ -84,4 +87,4 @@ subtest {
         'Instruction in second image has correct command';
 }, 'Multiple images example';
 
-done-testing;
+# vim: expandtab shiftwidth=4
