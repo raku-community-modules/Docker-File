@@ -1,4 +1,6 @@
 Revision history for Docker-File
 
 {{$NEXT}}
+
+1.1  2024-12-11T20:10:26+01:00
     - Initial version as a Raku Community module
